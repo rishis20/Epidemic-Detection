@@ -1,5 +1,4 @@
-from flask import Flask, request, render_template, abort, redirect, url_for
-import emailing
+from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
